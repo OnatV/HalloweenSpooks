@@ -1,5 +1,5 @@
 - !<ObjectPrefab/d63ae431-c081-4df3-93e5-205b73b0d9bc>
-  PackagePath: Witch_Hat__PUT_UNDER_MAIN_CAM
+  PackagePath: ""
   objects:
     - !<own> ceabf224-29a8-4dbe-88bc-f6da9a200bee
   LazyLoading: false
