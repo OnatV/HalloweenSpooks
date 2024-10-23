@@ -1,0 +1,138 @@
+- !<ObjectPrefab/d63ae431-c081-4df3-93e5-205b73b0d9bc>
+  PackagePath: Witch_Hat__PUT_UNDER_MAIN_CAM
+  objects:
+    - !<own> ceabf224-29a8-4dbe-88bc-f6da9a200bee
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/68a28f63-a3e2-4b8a-8541-4639dcb539c3>
+  PrefabRemaps:
+    []
+  Name: Hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.333761, y: 5.206576, z: -7.521950}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.759211, y: 0.672662, z: 0.759211}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bfb5b6fa-0aa7-4bf8-8e5e-c36033738f92
+- !<RenderMeshVisual/bfb5b6fa-0aa7-4bf8-8e5e-c36033738f92>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f26d427b-de6d-4da0-bd40-5a61fc6da151
+  Mesh: !<reference> e14cd4c0-45f3-4957-9f2e-488e4b7c11c7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/c7826e25-a7a7-4e89-ac38-1d1a1eaa2916>
+  PrefabRemaps:
+    []
+  Name: Band
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.333761, y: 5.206576, z: -7.521950}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.759211, y: 0.672662, z: 0.759211}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e195b999-c9f8-423c-b4c7-f94635626efe
+- !<SceneObject/ceabf224-29a8-4dbe-88bc-f6da9a200bee>
+  PrefabRemaps:
+    []
+  Name: Witch_Hat__PUT_UNDER_MAIN_CAM
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.044413, y: 7.922399, z: 9.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 68a28f63-a3e2-4b8a-8541-4639dcb539c3
+    - !<own> c7826e25-a7a7-4e89-ac38-1d1a1eaa2916
+  Components:
+    []
+- !<RenderMeshVisual/e195b999-c9f8-423c-b4c7-f94635626efe>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2b76a8bf-df46-4c63-a8f0-f466b77fc3f6
+  Mesh: !<reference> 8070bd3d-0b84-4191-8e08-4b29c1b6a705
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false

@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/96137b4f-a2b6-4c78-b891-a37247e5de8a>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9b1651bb-5bc2-4517-9d42-d0859de7bfcf
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9b1651bb-5bc2-4517-9d42-d0859de7bfcf
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8395bb14-2ab1-420b-a601-4487537f8e51
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/2608cc79-1d78-4387-8468-a1c4db638d4e>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8395bb14-2ab1-420b-a601-4487537f8e51>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    HiddenMask: false
+    HiddenMessage: false
+    InitializationText: false
+    Masks: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - SideSwitcher: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      introScreenSceneObjects: !<reference.SceneObject[]>
+        []
+      gameScreenSceneObjects: !<reference.SceneObject[]>
+        []
+      resultScreenSceneObjects: !<reference.SceneObject[]>
+        []
+      scoreTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      Leaderboard: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      Masks: !<reference.SceneObject[]>
+        []
+      HiddenMask: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      InitializationText: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      HiddenMessage: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
